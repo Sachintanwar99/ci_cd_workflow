@@ -49,5 +49,5 @@ jobs:
       - name: Deploy to Production
         run: |
           echo "Starting deployment..."
-          # Replace this echo with actual deployment commands, for example:
+          # Replace this echo with actual deployment commands, for example: oii
           # ssh user@your-server "cd /path/to/project && git pull && systemctl restart your-service"
