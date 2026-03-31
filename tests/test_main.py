@@ -6,6 +6,13 @@ def test_add_function():
     assert add(5, 5) == 10
 
 def test_subtarct_function():
-    assert subtract(5, 3) == 6
+    assert subtract(5, 3) == 2
     assert subtract(0, 0) == 0
     assert subtract(10, 5) == 5
+    
+def test_edge_cases():
+    assert add(-1, 1) == 0
+    assert subtract(0, 5) == -5
+    
+def test_failure():
+    assert add(2, 2) == 4   
